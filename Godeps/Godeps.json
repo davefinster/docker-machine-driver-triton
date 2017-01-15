@@ -1,0 +1,137 @@
+{
+	"ImportPath": "github.com/davefinster/docker-machine-driver-triton",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v77",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Azure/go-ansiterm",
+			"Rev": "fa152c58bc15761d0200cb75fe958b89a9d4888e"
+		},
+		{
+			"ImportPath": "github.com/Azure/go-ansiterm/winterm",
+			"Rev": "fa152c58bc15761d0200cb75fe958b89a9d4888e"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.0-35-g61e43dc",
+			"Rev": "61e43dc76f7ee59a82bdf3d71033dc12bea4c77d"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/term",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-4516-g1eafa0f",
+			"Rev": "1eafa0f706931a0f3f73c756df3fa50639eae7a2"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/term/windows",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-4516-g1eafa0f",
+			"Rev": "1eafa0f706931a0f3f73c756df3fa50639eae7a2"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/plugin",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/plugin/localbinary",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/rpc",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/log",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/mcnflag",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/mcnutils",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/ssh",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/state",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/version",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/version",
+			"Comment": "docs-v0.8.2-2016-09-26-114-gc7145a0",
+			"Rev": "c7145a096d39cce9d9e8b09335667c85515132f8"
+		},
+		{
+			"ImportPath": "github.com/joyent/gocommon",
+			"Rev": "b78708995d1c2ebdb64a3061b0bca5d8ccdf0fc2"
+		},
+		{
+			"ImportPath": "github.com/joyent/gocommon/client",
+			"Rev": "b78708995d1c2ebdb64a3061b0bca5d8ccdf0fc2"
+		},
+		{
+			"ImportPath": "github.com/joyent/gocommon/errors",
+			"Rev": "b78708995d1c2ebdb64a3061b0bca5d8ccdf0fc2"
+		},
+		{
+			"ImportPath": "github.com/joyent/gocommon/http",
+			"Rev": "b78708995d1c2ebdb64a3061b0bca5d8ccdf0fc2"
+		},
+		{
+			"ImportPath": "github.com/joyent/gocommon/jpc",
+			"Rev": "b78708995d1c2ebdb64a3061b0bca5d8ccdf0fc2"
+		},
+		{
+			"ImportPath": "github.com/joyent/gosdc/cloudapi",
+			"Rev": "ec8b3503a75edca0df26581b83807677b0240716"
+		},
+		{
+			"ImportPath": "github.com/joyent/gosign/auth",
+			"Rev": "9abcee278795b82b36858cdfc857c8a0e7de797c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "2f8be38b9a7533b8763d48273737ff6e90428a96"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519",
+			"Rev": "2f8be38b9a7533b8763d48273737ff6e90428a96"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"Rev": "2f8be38b9a7533b8763d48273737ff6e90428a96"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Rev": "2f8be38b9a7533b8763d48273737ff6e90428a96"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "2f8be38b9a7533b8763d48273737ff6e90428a96"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "d75a52659825e75fff6158388dddc6a5b04f9ba5"
+		}
+	]
+}
