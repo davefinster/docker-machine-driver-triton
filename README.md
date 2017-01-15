@@ -34,7 +34,7 @@ docker-machine -D create -d "triton" --triton-username <username> --triton-key-i
 It is recommended that you also add 
 
 ```bash
---engine-opt \"graph=/mnt/docker\"
+--engine-opt "graph=/mnt/docker"
 ```
 
 in order to take advantage of the additional storage that is mounted into the KVM separately.
