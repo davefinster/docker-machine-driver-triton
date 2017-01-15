@@ -22,8 +22,6 @@ binaries also available under [releases tab](https://github.com/davefinster/dock
 
 ## Example Usage
 
-Sign up at https://www.ctl.io and export your credentials into your shell environment or pass as cmdline flags
-
 ```bash
 #using ENV vars
 export TRITON_USERNAME='<username>'
@@ -32,6 +30,14 @@ export TRITON_KEY_ID='d7:e0.....'
 
 docker-machine -D create -d "triton" --triton-username <username> --triton-key-id d7:e0:.. --triton-key-path ./path/to/private/key machine0
 ```
+
+It is recommended that you also add 
+
+```bash
+--engine-opt \"graph=/mnt/docker\"
+```
+
+in order to take advantage of the additional storage that is mounted into the KVM separately.
 
 ## Options
 
